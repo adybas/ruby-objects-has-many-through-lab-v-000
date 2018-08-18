@@ -12,9 +12,6 @@ class Genre
     @@all << self
   end
 
-  def name
-  end
-
   def songs
   end
 
