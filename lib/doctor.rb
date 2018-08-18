@@ -1,4 +1,5 @@
 class Doctor
+  attr_accessor :name
 
   @@all = []
 
@@ -10,5 +11,5 @@ class Doctor
   def self.all
     @@all
   end
-  
+
 end
