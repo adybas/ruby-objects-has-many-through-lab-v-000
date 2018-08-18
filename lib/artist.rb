@@ -16,4 +16,10 @@ class Artist
     Song.new(name, self, genre)
   end
 
+  def songs
+  end
+
+  def genres
+  end
+
 end
