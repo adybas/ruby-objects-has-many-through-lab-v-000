@@ -17,6 +17,10 @@ class Artist
   end
 
   def songs
+    #The Artist class needs an instance method, #songs, that iterates through
+    #all songs and finds the songs that belong to that artist.
+    #Try using select to achieve this.
+    Song.all.select {|song| song.name == self}
   end
 
   def genres
