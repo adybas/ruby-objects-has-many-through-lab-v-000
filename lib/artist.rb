@@ -21,7 +21,7 @@ class Artist
   end
 
   def genres
-    Song.all.collect {|genre| genre.genre == self}
+    songs.collect {|genre| genre.genre == self}
   end
 
 end
