@@ -7,8 +7,8 @@ class Genre
     @@all
   end
 
-  def initialize(genre)
-    @name = genre
+  def initialize(name)
+    @name = name
     @@all << self
   end
 
